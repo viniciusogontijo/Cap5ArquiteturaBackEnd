@@ -10,3 +10,11 @@ document.addEventListener('click', function(e){
     console.log(e.target.getAttribute('data-avaliacao'));
   }
 });
+
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})

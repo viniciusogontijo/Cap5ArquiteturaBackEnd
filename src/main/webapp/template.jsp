@@ -7,6 +7,7 @@
 <jsp:include page="./componentes/menu_principal.jsp"></jsp:include>
 <jsp:include page="./componentes/menu_secundario.jsp"></jsp:include>
 <section>
+<!-- SEU CONTEUDO AQUI -->
 </section>
 </body>
 </html>
